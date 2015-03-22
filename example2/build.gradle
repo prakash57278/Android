@@ -1,0 +1,12 @@
+apply plugin: "java"
+
+defaultTasks 'buildTask'
+
+    task compileTask << {
+      System.out.println "compiling..." 
+    }
+
+    task buildTask (dependsOn:compileTask) << {
+      System.out.println "building..."
+    }
+	
