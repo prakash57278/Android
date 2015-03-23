@@ -1,14 +1,13 @@
 package pt.ulisboa.tecnico.cmov.basicthreading;
 
+import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
-import java.util.logging.Handler;
 
 
 public class UIThread extends ActionBarActivity {
@@ -16,34 +15,57 @@ public class UIThread extends ActionBarActivity {
     Runnable tLogic = null;
     Thread t = null;
     Handler handler = null;
+    int counter = 0;
+
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_uithread);
+//
+//        tLogic = new Runnable() {
+//            @Override
+//            public void run() {
+//                int counter = 0;
+//                while(true){
+//
+//                    try {
+//                        Thread.sleep(1000);
+//                    } catch (InterruptedException e) {
+//                        return;
+//                    }
+//                    counter++;
+//                    Log.d("[worker THREAD]", "Counter = " + counter);
+//
+////                    Needs handler to talk to UIThread
+////                    TextView textView = (TextView) findViewById(R.id.counter);
+////                    textView.setText(counter);
+//                }
+//
+//
+//            }
+//        };
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uithread);
-
+        if(handler == null)
+            handler = new Handler();
         tLogic = new Runnable() {
             @Override
             public void run() {
-                int counter = 0;
-                while(true){
 
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        return;
-                    }
-                    counter++;
-                    Log.d("[worker THREAD]", "Counter = " + counter);
 
-//                    Needs handler to talk to UIThread
-//                    TextView textView = (TextView) findViewById(R.id.counter);
-//                    textView.setText(counter);
-                }
 
+
+                counter++;
+                Log.d("[worker THREAD]", "Counter = " + counter);
+                handler.postDelayed(this, 1000);
 
             }
         };
+
     }
 
     public void onStart(View view){
