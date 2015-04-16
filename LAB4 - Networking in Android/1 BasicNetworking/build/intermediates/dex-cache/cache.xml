@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/nuno/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jar="C:\Users\Diogo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
-        <dex dex="/Users/nuno/Desktop/CMov-Lab08/BasicNetworking/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-3accccd569c42a8ce1eda09b628263be09aaa3af.jar" />
+        <dex dex="D:\Repositories\Android\LAB4 - Networking in Android\1 BasicNetworking\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-b3785e53011bb5d21531eacf6a12b7c1636866f8.jar" />
     </item>
     <item
-        jar="/Users/nuno/Desktop/CMov-Lab08/BasicNetworking/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jar="D:\Repositories\Android\LAB4 - Networking in Android\1 BasicNetworking\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
-        <dex dex="/Users/nuno/Desktop/CMov-Lab08/BasicNetworking/Application/build/intermediates/pre-dexed/debug/classes-646a6d4c7e93eaa4da1c773ede09a9378f08a3b2.jar" />
+        <dex dex="D:\Repositories\Android\LAB4 - Networking in Android\1 BasicNetworking\Application\build\intermediates\pre-dexed\debug\classes-c49b1556de977726a86c5822a03076c98e6ea5be.jar" />
     </item>
     <item
-        jar="/Users/nuno/Desktop/CMov-Lab08/BasicNetworking/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jar="D:\Repositories\Android\LAB4 - Networking in Android\1 BasicNetworking\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
-        <dex dex="/Users/nuno/Desktop/CMov-Lab08/BasicNetworking/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-c47fd965b8007836c987d945341bdbc9a2081a4a.jar" />
+        <dex dex="D:\Repositories\Android\LAB4 - Networking in Android\1 BasicNetworking\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-fd182a509f5e28c1378e14432bd77bbbc7e3f10f.jar" />
     </item>
 
 </items>

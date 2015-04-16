@@ -35,6 +35,8 @@ package com.example.android.basicnetworking.tests;
 
 import com.example.android.basicnetworking.*;
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.test.ActivityInstrumentationTestCase2;
 
 /**
@@ -44,6 +46,7 @@ public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> 
 
     private MainActivity mTestActivity;
 
+    @TargetApi(Build.VERSION_CODES.FROYO)
     public SampleTests() {
         super(MainActivity.class);
     }

@@ -30,7 +30,7 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="1dp"
-        android:background="@android:color/darker_gray"/>
+        android:background="#8F00"/>
     <fragment
         android:name="com.example.android.common.logger.LogFragment"
         android:id="@+id/log_fragment"
