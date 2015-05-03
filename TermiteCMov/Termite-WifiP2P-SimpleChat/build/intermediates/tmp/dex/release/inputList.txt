@@ -1,0 +1,6 @@
+D:\Repositories\Android\TermiteCMov\Termite-WifiP2P-SimpleChat\build\intermediates\classes\release
+D:\Repositories\Android\TermiteCMov\Termite-WifiP2P-SimpleChat\build\intermediates\pre-dexed\release\support-annotations-21.0.3-d7b3e80ef28d886567c5a6cab1b0bc81d6e5a459.jar
+D:\Repositories\Android\TermiteCMov\Termite-WifiP2P-SimpleChat\build\intermediates\pre-dexed\release\classes-9fbc6e459dea625ce2f5ab423549c4f799d2c78d.jar
+D:\Repositories\Android\TermiteCMov\Termite-WifiP2P-SimpleChat\build\intermediates\pre-dexed\release\internal_impl-21.0.3-0b23aa5113d63cf0cb7b0cbcbdce7231ae24a8cc.jar
+D:\Repositories\Android\TermiteCMov\Termite-WifiP2P-SimpleChat\build\intermediates\pre-dexed\release\classes-ad8700937347801cf40849d2864d44d0b44f0ed2.jar
+D:\Repositories\Android\TermiteCMov\Termite-WifiP2P-SimpleChat\build\intermediates\pre-dexed\release\classes-28701062e1ed06da62b4a405e6bb1e2b88f6e6fa.jar

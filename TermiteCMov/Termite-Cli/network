@@ -1,0 +1,10 @@
+assignaddr emulator-5554
+assignaddr emulator-5556
+
+binddevice A emulator-5554
+binddevice B emulator-5556
+
+move A (B)
+creategroup A (B)
+
+commit
